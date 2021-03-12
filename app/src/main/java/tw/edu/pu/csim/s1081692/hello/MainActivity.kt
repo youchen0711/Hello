@@ -13,6 +13,10 @@ class MainActivity : AppCompatActivity() {
         var txv: TextView = findViewById<TextView>(R.id.txv)
         txv.text = "Hello tcyang"
 
+        fun TestDEV(){
+            var txv:TextView = findViewById<TextView>(R.id.txv)
+            txv.text = "Dev分支"
+        }
 
 
     }
